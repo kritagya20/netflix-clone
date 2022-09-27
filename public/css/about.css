@@ -1,0 +1,74 @@
+.movie-info {
+    width: 100%;
+    height: calc(100vh - 3.75rem);
+    margin-top: 3.75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie-detail{
+    width: 50%;  height: 100%;
+    background: rgb(24,24,24);
+    background: linear-gradient(90deg, rgba(24,24,24,1), rgba(24,24,24,0)100%);
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--color-white);
+}
+
+.movie-name {
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.genres {
+    opacity: 0.6;
+    margin: 1.875rem 0;
+}
+
+.des {
+    width: 70%;
+    line-height: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+.starring span {
+    opacity: 0.6;
+}
+
+.trailer-container,
+.recommendations {
+    color: var(--color-white);
+    padding: 5vw 5vw 0;
+}
+
+.heading {
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin-bottom: 1.25re,;
+}
+
+iframe {
+    width: 25rem;  height: 12.5rem;
+}
+
+.recommendations-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie p {
+    position: absolute;
+    bottom: 1.875rem;
+    width: 100%;  height: 1.875rem;
+    line-height: 1.875rem;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    opacity: 0;
+}
+
+.movie:hover p {
+    opacity: 1;
+}
